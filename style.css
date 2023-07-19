@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(0, 0, 0);
+}
+.grid {
+   background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 450px;
+    height :600px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border:3px solid rgb(255, 255, 255);
+    border-radius: 30px;
+
+}
+h2{
+    color: azure;
+    text-align: center;
+}
+.grid div{
+    
+    height: 40px;
+    width: 40px;
+}
+.invader{
+    transform: rotate(-23.3deg);
+    height:40px;
+    width: 40px;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-image: url('ufo.webp');
+}
+.shooter{
+    height:40px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    background-image: url('spaceship.webp');
+    
+}
+.laser{
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('laser.jpg');
+}
+.boom{
+    background-color: tomato;
+}
+.help{
+    
+    text-align: center;
+    color: aliceblue;
+}
+p{
+        font-size: 20px;
+}
+.laser-invader{
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('invaderlaser.jpg');
+}
